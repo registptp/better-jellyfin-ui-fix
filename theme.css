@@ -3,7 +3,7 @@ Licensed under Apache 2.0
 © 2026 - tromoSM. All right reserved.
 tromoSM/better-jellyfin-ui
 
-version 1.13 release 14
+version 1.14 release 15
 see changelog.md for changes
 */ 
 @font-face {
@@ -1773,6 +1773,11 @@ border-left-color: white !important;
 	background-color: #ffffff0a !important;
 	color: #fff !important;
 }
+/*114*/
+.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast {
+	border-radius: 22px !important;
+}
+
 /*REQUESTS FROM USERS*/
 
 /*#1 by @Cryborg12 (backdrop background)*/
@@ -1805,9 +1810,19 @@ border-left-color: white !important;
 	padding: 0;
 }
 /*FIX: issue #11 reported by @oswie  | better-jellyfin-ui/issues/11 */
-.detailLogo.lazy.lazy-image-fadein-fast{
+ /*#11 | change-image*/
+ .detailLogo.lazy.lazy-image-fadein-fast{
   margin: 40px 0px;
-}
+ }
+ /*#11 | episode thumbnail*/
+ .itemsContainer.padded-right.vertical-list {
+	width: 100% !important;
+ }
+ .listItem.listItem-largeImage.listItem-withContentWrapper {
+	padding: 20px !important;
+ }
+
+
 /*EXPERIMENTAL NOT FEATURED IN RELEASE*/
 /*scroller button disabled to op0 or boxOp0 ERR=css detect 2[dis] after scrollend on all */
 /*
