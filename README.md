@@ -19,6 +19,10 @@ Paste:
 ```
 Click **Save** and refresh the page.
 
+> [!TIP]
+> ### For firefox users
+> make sure to enable `layout.css.backdrop-filter.enabled` and `gfx.webrender.all` to true in `about:config` to be able to see the blur effect. [detailed tutorial on how to enable backdrop blur](https://shounak.hashnode.dev/how-to-enable-backdrop-filter-in-firefox)
+ 
 ---
 
 # Optional Add-ons
