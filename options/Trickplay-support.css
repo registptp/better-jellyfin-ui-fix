@@ -1,0 +1,12 @@
+/*reported by @0belous*/
+.chapterThumbWrapper{margin:2px;}
+.chapterThumbContainer {
+	box-shadow: none;
+}
+.chapterThumbWrapper {
+	border-radius: 14px;
+}
+.sliderBubble {
+	border-radius: 18px;
+	padding: 2px;
+}
