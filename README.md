@@ -152,6 +152,32 @@ https://github.com/user-attachments/assets/56181924-8a25-4a21-b272-642b82cead16
 ```
 
 </details>
+<details>
+  <summary><Strong>Alternative detail logo</Strong></summary>
+
+  ### Preview
+  | before | after |
+  |-|-|
+  | ![better jellyfin ui plugin #7 : remove jellyfin logo from header](https://github.com/user-attachments/assets/02854392-10a5-475a-aa9a-4648e1e37de2) | ![better jellyfin ui plugin #7 : remove jellyfin logo from header](https://github.com/user-attachments/assets/a4820e12-8557-4dd8-ade1-412bdf39e3e9) |
+
+  ### Installation
+
+  ```css
+@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/alternative-detail-logo.css");
+```
+  
+</details>
+<details>
+  <summary><Strong>TrickPlay support</Strong></summary>
+ 
+  ##### reported by [@0belous](https://github.com/0belous)
+  ### Installation
+
+  ```css
+@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Trickplay-support.css");
+```
+  
+</details>
 <br>
 <details id='manual'>
   <summary><strong>Manual options</strong></summary>
