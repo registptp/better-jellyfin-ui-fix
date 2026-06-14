@@ -432,7 +432,7 @@ filter: brightness(0.9);
   padding: 5px 0px;
 }
 .mdl-slider::-moz-range-thumb{
-  background-color: #fff;
+  border-color: #fff;
 }
 
 .sliderBubbleText{
@@ -507,7 +507,7 @@ text-decoration: none;
   padding: 0px 20px;
   transition: 0.3s;
   border-radius: 50px !important;
-  will-change: tranform;
+  will-change: transform;
   text-align: left;
   box-shadow: 3px 2px 2px -3px rgba(255, 255, 255, 0.39) inset, -2px -2px 2px -2px rgba(255, 255, 255, 0.39) inset, 0px 0px 15px rgba(0, 0, 0, 0.329);
 }
@@ -540,7 +540,7 @@ html{
 .actionSheetContent .listItem{
   transition: none !important;
   box-shadow: none !important;
-  border-radius: none !important;
+  border-radius: unset !important;
 }
 .actionSheetContent .listItem:hover{
   transform: none !important;
@@ -808,6 +808,18 @@ z-index: -1;
   to{
     transform: translateY(-100px);
   }}
+
+  /* --- FIX DE TOQUE NO BOTÃO DE VOLTAR/X DO PLAYER MOBILE --- */
+  .videoOsdHeader, 
+  .viewableVideoPlayer, 
+  .btnHeaderBack,
+  .headerTop {
+    z-index: 9999 !important;
+    pointer-events: auto !important;
+  }
+  .videoOsdBottom, .videoOsdHeader {
+    pointer-events: auto !important;
+  }
 }
 
 .cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light{
@@ -1676,7 +1688,7 @@ border-left-color: white !important;
 	border-radius: 0px 0px 11px 11px;
 }
 /*addit: side/cast/nopf*/
-.defaultCardBackground3,.defaultCardBackground1,.defaultCardBackground2,.defaultCardBackground4,.defaultCardBackground5,.defaultCardBackgroun6{
+.defaultCardBackground3,.defaultCardBackground1,.defaultCardBackground2,.defaultCardBackground4,.defaultCardBackground5,.defaultCardBackground6{
 	background-color: transparent;
 }
 /*lib/settings/metadata = see issue#3*/
